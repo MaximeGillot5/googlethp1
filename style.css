@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+body{
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+    justify-content: right;
+}
+
+header .right{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header p{
+    margin-right: 10px;
+    color: #787878;
+    cursor: pointer;
+}
+
+header .icone{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+header .connexion{
+    margin-right: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 17px 20px;
+    padding: 20px;
+}
+
+
+header .item{
+    justify-content: space-evenly;
+}
+
+header .connexion{
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    display: inline-block;
+    font: 13px/27px Arial,sans-serif;
+    white-space: nowrap;
+    margin-left: 8px;
+    text-decoration: none;
+    color: white;
+    margin: 3px 20px;
+}
+
+/* Fin Header */
+
+
+/* Centre */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .main .form-group{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  .main .form-group input{
+    margin-top: 20px;
+    padding:15px;
+    border-radius: 50px;
+    border:1px solid #d1d1d1;
+    outline:none;
+    width: 100%;
+  }
+  .main .form-group input:hover, .main .form-group input:focus{
+    -webk-webkit-box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
+    -moz-box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
+    box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
+  }
+  .main .form-group label i{
+    float: right;
+    font-size: 20px;
+    margin-top: -35px;
+    margin-right: -15px;
+    position: relative;
+    cursor: pointer;
+    color: #5c5c5c;
+  }
+
+  .main .form-group label a{
+    float: left;
+       font-size: 20px;
+    margin-top: -35px;
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+    color: #5c5c5c;
+  }
+  .main .buttons{
+    margin-top: 40px;
+  }
+  .main .buttons button{
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border:none; 
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor:pointer;
+    color: #4d4d4d;
+    outline:none;
+  }
+
+
+
+/* Fin Centre*/
+
+
+/* Bas de page */
+
+
+.bot-space{
+    display: block;
+    height: 205px;
+    width: 1100px;
+}
+
+.bottomfr{
+    padding: 15px 30px;
+    border-bottom: 1px solid #787878;
+    font-size: 15px;
+    color: #787878;
+    background-color: #f2f2f2;
+} 
+
+.contact{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px #d1d1d1;
+    font-size: 14px;
+    text-decoration: none;
+    color: #70757a;
+    background-color: #f2f2f2;
+    margin-top: auto;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.contact1{
+    display: inline-block;
+    margin: 6px;
+}
+/* Fin de bas de page */
